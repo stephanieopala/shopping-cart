@@ -1,0 +1,24 @@
+.card {
+  max-width: 360px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.image {
+  width: 320px;
+  height: 300px;
+}
+.button {
+  background-color: rgb(165, 85, 6);
+  color: white;
+  padding: 10px 12px;
+  border: 1px solid rgb(165, 85, 6);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button:hover {
+  background-color: white;
+  color: rgb(165, 85, 6);
+}
